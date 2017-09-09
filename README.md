@@ -53,7 +53,7 @@ $ git branch                      # 現在どのブランチにいるか確認�
 - 機能拡張用ブランチを作成する。拡張機能に応じた命名がなされているとよい。
 
 ```
-$ git checkout -b update-XXX   # 機能拡張用branchを作成。(update-XXXは拡張する機能に応じて名前を変更する。)
+$ git checkout -b update-XXX   # 機能拡張用branchを作成し、そのブランチに移動(update-XXXは拡張する機能に応じて名前を変更する。)
 ```
 
 - 機能拡張する。
@@ -75,6 +75,9 @@ To git@github.com:struuuuggle/pullRequestPrac_XX.git
 
 push後に、上記ログが出ていることを確認。
 
+
+### 4. Pull Requestを作成する。
+- (XXにはcloneしたときと同じ文字列を入れた上で)[https://github.com/struuuuggle/pullRequestPrac_XX](https://github.com/struuuuggle/pullRequestPrac_XX) にアクセスする。PullRequestを作成する。詳細は省略。
 
 
 ## ひとこと
