@@ -1,15 +1,15 @@
-#Hello, Pull Request
+# Hello, Pull Request
 
-##Outline
+## Outline
 This is a remote repository named "pullRequestPrac".
 
-##Goal
+## Goal
 
-(簡単な)Pull Requestを使ったチーム開発を行えるようになること。
+**(簡単な)Pull Requestを使ったチーム開発を行えるようになること。**
 
 
 
-##Outline
+## Outline
 
 1. リモートリポジトリを手元のPC(ローカル)にコピー(クローン)する。
 2. 機能拡張用ブランチを作成する。(これは、もとのコードを傷つけないようにするため。)
@@ -22,7 +22,7 @@ This is a remote repository named "pullRequestPrac".
 
 
 
-##Let's Start
+## Let's Start
 
 ### 1. リモートリポジトリを手元のPC(ローカル)にコピー(クローン)する。
 
@@ -55,8 +55,8 @@ $ git checkout -b update-XXX   # 機能拡張用branchを作成。(update-XXXは
 ### 3. 機能拡張ができたら変更をリモートリポジトリに反映(push)させる。
 
 ```
-$ git add -A                      # 変更のあったファイルを全て追跡
-$ git commit -m "Update XXX"      # 変更をcommit
+$ git add -A                      # 変更のあったファイルを全て追加
+$ git commit -m "Update XXX"      # 変更履歴をリポジトリに保存
 $ push origin update-XXX          # リモートリポジトリにpushする
 ```
 
@@ -69,6 +69,21 @@ To git@github.com:struuuuggle/pullRequestPrac_XX.git
 push後に、上記ログが出ていることを確認。
 
 
+
+## ひとこと
+
+- よく使うコマンド
+
+```
+$ git status
+$ git branch                             # 現在の変更状況を確認
+$ git branch -b <branchname>             # branchを作成
+$ git checkout <branchname>              # branchnameブランチに移動
+$ git add <filename>                     # filenameファイルを追加
+$ git add -A                             # 変更のあったファイルを全て追加
+$ git commit (-a) -m "<commit message>"  # 変更履歴をリポジトリに保存
+$ git push                               # ローカルリポジトリの内容をリモートリポジトリに反映させる
+```
 
 ##Reference
 [GitHub初心者はForkしない方のPull Requestから入門しよう | qnyp blog](http://blog.qnyp.com/2013/05/28/pull-request-for-github-beginners/)
