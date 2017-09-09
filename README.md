@@ -97,3 +97,4 @@ $ git push                               # ローカルリポジトリの内容�
 
 ## Reference
 [GitHub初心者はForkしない方のPull Requestから入門しよう | qnyp blog](http://blog.qnyp.com/2013/05/28/pull-request-for-github-beginners/)
+[MacOS XにおけるGit入門](http://www.aise.ics.saitama-u.ac.jp/~gotoh/IntroOfGitOnMacOSX.html)
