@@ -22,6 +22,12 @@ This is a remote repository named "pullRequestPrac".
 
 
 
+## Before you get started
+
+GitHubアカウントを持っていない場合,[ここ](http://www.aise.ics.saitama-u.ac.jp/~gotoh/IntroOfGitOnMacOSX.html#toc35)を参考にしてアカウント登録を済ませること。
+
+
+
 
 ## Let's Start
 
