@@ -17,6 +17,7 @@ This is a remote repository named "pullRequestPrac".
 
 
 以下の作業はGitHub上で行うため説明は省略する。
+
 4. Pull Requestを作成する。
 
 
@@ -39,7 +40,7 @@ $ cd pullRequestPrac_XX # pullRequestPrac_XXに移動
 - 現在のブランチを確認
 
 ```
-$ git branch
+$ git branch                      # 現在どのブランチにいるか確認する
 * master
 ```
 
@@ -85,5 +86,5 @@ $ git commit (-a) -m "<commit message>"  # 変更履歴をリポジトリに保�
 $ git push                               # ローカルリポジトリの内容をリモートリポジトリに反映させる
 ```
 
-##Reference
+## Reference
 [GitHub初心者はForkしない方のPull Requestから入門しよう | qnyp blog](http://blog.qnyp.com/2013/05/28/pull-request-for-github-beginners/)
