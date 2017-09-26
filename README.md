@@ -64,7 +64,7 @@ $ git checkout -b update-XXX   # 機能拡張用branchを作成し、そのブ�
 ```
 $ git add -A                      # 変更のあったファイルを全て追加
 $ git commit -m "Update XXX"      # 変更履歴をリポジトリに保存
-$ push origin update-XXX          # リモートリポジトリにpushする
+$ git push origin update-XXX      # リモートリポジトリにpushする
 ```
 
 ```
